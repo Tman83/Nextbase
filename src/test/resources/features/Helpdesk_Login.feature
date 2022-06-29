@@ -9,7 +9,7 @@ Feature: Default
 		
 		Background
 		  For the scenarios in the feature file, user is expected to be on login page
-		  Given user is on the login page https://login.nextbasecrm.com
+		  Given user is on the login page
 		  
 		  @Helpdesk
 		  Scenario: Login as Helpdesk

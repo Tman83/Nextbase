@@ -9,11 +9,11 @@ Feature: Default
 		
 		Background
 		  For the scenarios in the feature file, user is expected to be on login page
-		  Given user is on the login page https://login.nextbasecrm.com
+		  Given user is on the login page
 		  
 		  @HR
 		  Scenario: Login as HR
-		  When user enters HR username hr1@cybertekschool.com
-		  And user enters HR password UserUser
+		  When user enters username "hr1@cybertekschool.com"
+		  And user enters password "UserUser"
 		  And user clicks to login button
 		  Then user should see the dashboard

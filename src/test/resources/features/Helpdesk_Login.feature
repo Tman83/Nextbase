@@ -13,7 +13,7 @@ Feature: Default
 		  
 		  @Helpdesk
 		  Scenario: Login as Helpdesk
-		  When user enters Helpdesk username helpdesk1@cybertekschool.com
-		  And user enters Helpdesk password UserUser
+		  When user enters username "helpdesk1@cybertekschool.com"
+		  And user enters password "UserUser"
 		  And user clicks to login button
 		  Then user should see the dashboard

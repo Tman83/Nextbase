@@ -13,7 +13,7 @@ Feature: Default
 		  
 		  @Marketing
 		  Scenario: Login as Marketing
-		  When user enters Marketing username marketing1@cybertekschool.com
-		  And user enters Marketing password UserUser
+		  When user enters username "marketing1@cybertekschool.com"
+		  And user enters password "UserUser"
 		  And user clicks to login button
 		  Then user should see the dashboard

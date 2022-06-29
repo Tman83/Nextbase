@@ -13,8 +13,8 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt",
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber"
         },
-        features = "src/test/ressources/features",
-        glue = "com/nextBase/stepdefinitions",
+        features = "src/test/resources/features",
+        glue = "com/nextBase/stepDefinitions",
         dryRun = false,
         tags = "",
         publish = false
@@ -22,4 +22,5 @@ import org.junit.runner.RunWith;
 )
 
 public class CukesRunner {
+
 }
